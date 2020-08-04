@@ -13,7 +13,7 @@ services:
       - .:/app  
   tests:
     build:
-      context:
+      context: .
       docketfile: Dockerfile.dev
     volumes:
       - /app/node-modules
